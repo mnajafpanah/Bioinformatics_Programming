@@ -2,8 +2,8 @@
 # Gibbs Sampler Motif Finder
 
 Gibbs sampling is the basis behind a general class of algorithms that is a type of local search.  This is one of the algorithm which can find the best conserved motifs among a huge
-number of sequences. In the following you can see the pseudocode for the corresponding algorithm which is implemented in this project:
-# # # # # # # # # #
+number of sequences. The program first of all read the FASTA file and store the sequences in a string list variable. In the following you can see the pseudocode for the corresponding algorithm which is implemented in this project:
+
     GibbsSampler( Dna , k, t, N)
       randomly select k-mer Motifs = (Motif1, ..., Motif-t) in each string from  Dna BestMotifs <- Motifs
         for j = 1 to N
